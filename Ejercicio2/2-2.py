@@ -9,4 +9,3 @@ for x in cadena:
     contador=contador+len(x)
 
 print(contador)
-print ()
