@@ -9,3 +9,5 @@ for x in lista:
         print(exit)
         exit()
 
+
+
