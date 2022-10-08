@@ -1,6 +1,6 @@
 #importamos numpy para poder crear la matriz
 import numpy as np
-import random
+
 
 #3.2.1
 array = np.random.randint(100 , size=(3, 4))
