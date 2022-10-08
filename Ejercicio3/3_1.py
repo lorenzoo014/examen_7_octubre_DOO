@@ -4,6 +4,7 @@ import numpy as np
 np.random.seed(36)
 matriz = np.random.randint(0,10,(6,6))
 print(matriz)
+print()
 
 #Ejercicio_2
 print(matriz.nbytes)
