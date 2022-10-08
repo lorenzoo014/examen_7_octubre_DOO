@@ -1,7 +1,9 @@
 
-l=[18, 50, 210, 80, 145, 333, 70, 30]
+m=[18, 50, 210, 80, 145, 333, 70, 30]
 
 lista_aux = []
+
+
 
 
 def seleccionar(diccionario):
@@ -10,6 +12,6 @@ def seleccionar(diccionario):
             lista_aux.append(element)
         elif(element>300):
             break
-        return lista_aux
-print(seleccionar(l))
+    return lista_aux
+print(seleccionar(m))
 
