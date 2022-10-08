@@ -12,3 +12,4 @@ def seleccionar(diccionario):
             break
         return lista_aux
 print(seleccionar(l))
+
