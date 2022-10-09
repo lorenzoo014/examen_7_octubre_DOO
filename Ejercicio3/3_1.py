@@ -1,26 +1,33 @@
 import numpy as np
 
 #Ejercicio_1
-np.random.seed(36)
-matriz = np.random.randint(0,10,(6,6))
-print(matriz)
-print()
+def array_6_6():
+    np.random.seed(36)
+    matriz = np.random.randint(0,10,(6,6))
+    print(matriz)
+    return matriz
 
 #Ejercicio_2
-print(matriz.nbytes)
+def bytes(matriz):
+    bytes = matriz.nbytes
+    return bytes
 
 #Ejercicio_3
-
-#desv. tipica
-des_tipica = np.std(matriz)
-media = np.mean(matriz)
-print(des_tipica,media)
+def des_tipica_y_media(matriz):
+    des_tipica = np.std(matriz)
+    media = np.mean(matriz)
+    print(des_tipica,media)
+    return des_tipica , media
 
 #Ejercicio_4
-np.random.seed(36)
-matriz_2 = np.random.normal(media, des_tipica, (6,6))
-print(matriz_2)
-matriz_2 = matriz_2.round()
-print(matriz_2)
+def misma_matriz_media_des_tipica():
+    np.random.seed(36)
+    matriz_2 = np.random.normal(des_tipica_y_media, (6,6))
+    print(matriz_2)
+    return matriz_2
+
+def matriz_ints():
+    matriz_3 = misma_matriz_media_des_tipica.round()
+    print(matriz_3)
 
 
