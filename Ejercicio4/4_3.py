@@ -12,3 +12,15 @@ nombres = ["mpg","cylinders","displacement","horsepower",
 autos.columns = nombres
 
 print(autos.head())
+
+# ejercicio 4.3.1
+solucion431=autos[autos["weight"]>5000]
+print(solucion431)
+
+# ejercicio 4.3.2
+# filtramos el year
+frecuencias = autos[autos['model year'] == 76]
+
+# luego contamos los elementos de cada colindroo y tomamos el maximo
+frecuencias['cylinders'].value_counts()
+
