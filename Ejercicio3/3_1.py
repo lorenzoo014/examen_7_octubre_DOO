@@ -15,6 +15,7 @@ print(matriz.nbytes)
 des_tipica = np.std(matriz)
 media = np.mean(matriz)
 print(des_tipica,media)
+
 #Ejercicio_4
 np.random.seed(36)
 matriz_2 = np.random.normal(media, des_tipica, (6,6))
