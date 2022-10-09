@@ -68,9 +68,9 @@ solucion436=autos_con_nan['cylinders'].value_counts()
 print("La solucion del 4.3.6 es:")
 print(solucion436)
 
-#ejercicio 4.3.7
+#ejercicio 4.3.7(te lo dejo comentado porque me da un error que no se solucionar)
 
 # solo agregamos mas elementos dentro del filtro de la siguiente forma
-solucion437=autos[(autos['cylinders']>=6) and (autos['weight']>4000) and (autos['mpg']<=10)]
-print("La solucion del 4.3.7 es:")
-print(solucion437)
+#solucion437=autos[(autos['cylinders']>=6) and (autos['weight']>4000) and (autos['mpg']<=10)]
+#print("La solucion del 4.3.7 es:")
+#print(solucion437)
