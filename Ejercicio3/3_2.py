@@ -35,3 +35,4 @@ for i in range(list(array.shape)[0]):
             array[i][j]=-1
 
 print(array)
+print()
