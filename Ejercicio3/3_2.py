@@ -19,9 +19,13 @@ def matriz_3_4():
             array = array.reshape(3,4)
             print(array)
             return array
-    
 
 #3.2.2
+print(matriz_3_4()[0][0])
+print(matriz_3_4()[0])
+print(matriz_3_4().size)
+print(list(matriz_3_4().shape)[0])
+
 def filtrado(array):
     for i in range(list(array.shape)[0]):
         for j in range(list(array.shape)[1]):
