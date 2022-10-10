@@ -14,9 +14,9 @@ class Apartado_1():
 #-----------Ejercicio_1.2-----------#
     @staticmethod
     def cada_dos(lista=[]):
-        posicion=-1
-        for i in range(2,5,2):
-            lista2 =[]
+        posicion=len(lista)-1
+        lista2 =[]
+        for i in range(2,len(lista)+1,2):
             lista2.append(lista[posicion])
             posicion = posicion-i
         return lista2
@@ -40,4 +40,5 @@ class Apartado_1():
     @staticmethod
     def copia(lista=[]):
         lista2 = lista.copy()
+        return lista2
 

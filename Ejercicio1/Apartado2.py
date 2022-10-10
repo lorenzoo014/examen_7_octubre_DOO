@@ -1,15 +1,4 @@
 
-
-dic_ejemplo = {'Alumnos': ["Carlos", "Ana", "Daniela", "Martín"],
-
-'Curso': "Big Data",
-
-'Edad': ('22', '21', '20', '22'),
-
-'Presencial': True
-
-}
-
 # valor =list(dic_ejemplo.values())[2][2]
 # print(valor)
 
@@ -17,7 +6,7 @@ dic_ejemplo = {'Alumnos': ["Carlos", "Ana", "Daniela", "Martín"],
 def sacarEdadDaniela(diccionario):
     print("La edad de Daniela:")
     valor =list(diccionario.values())[2][2]
-    print(valor)
+    return valor
 
 
 
@@ -25,11 +14,10 @@ def EncuentraClave(diccionario ,clave):
     claves = list(diccionario.keys())
     # True if clave in claves else False
     if clave in claves:
-        print("True")
         return True
     else: 
-        print("False")
         return False
+
 def set_edades(diccionario):
     mi_set = set(list(diccionario.values())[2])
     tamaño = mi_set.__len__()

@@ -71,6 +71,5 @@ print(solucion436)
 #ejercicio 4.3.7
 
 # solo agregamos mas elementos dentro del filtro de la siguiente forma
-solucion437=autos[(autos['cylinders']>=6) and (autos['weight']>4000) and (autos['mpg']<=10)]
-print("La solucion del 4.3.7 es:")
-print(solucion437)
+
+autos[(autos['cylinders']>=6) & (autos['weight']>4000) & (autos['mpg']<=10)]
