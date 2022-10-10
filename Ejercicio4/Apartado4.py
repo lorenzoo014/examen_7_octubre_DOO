@@ -135,15 +135,13 @@ import matplotlib.pyplot as plt
 autos_years.plot(subplots=True,figsize=(12,60))
 plt.xticks(np.arange(min(autos_years.index), max(autos_years.index)+1, 1.0))
 plt.tight_layout()
-solucion447=plt.show()
-print(solucion447)
+print(plt.show())
 
 #ejericio 4.4.8
 
 autos_years['weight'].plot(figsize=(12,12))
 plt.xticks(np.arange(min(autos_years.index), max(autos_years.index)+1, 1.0))
-solucion448=print(plt.show())
-print(solucion448)
+print(plt.show())
 
 
 

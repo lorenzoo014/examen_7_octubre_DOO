@@ -71,6 +71,11 @@ print(solucion436)
 #ejercicio 4.3.7(te lo dejo comentado porque me da un error que no se solucionar)
 
 # solo agregamos mas elementos dentro del filtro de la siguiente forma
+<<<<<<< HEAD:Ejercicio4/4_3.py
+
+autos[(autos['cylinders']>=6) & (autos['weight']>4000) & (autos['mpg']<=10)]
+=======
 #solucion437=autos[(autos['cylinders']>=6) and (autos['weight']>4000) and (autos['mpg']<=10)]
 #print("La solucion del 4.3.7 es:")
 #print(solucion437)
+>>>>>>> 8e062e4215e37543b5a2eabd4c2fa1199f3c83d7:Ejercicio4/Apartado3.py

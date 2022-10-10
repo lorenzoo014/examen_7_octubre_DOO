@@ -20,14 +20,14 @@ def des_tipica_y_media(matriz):
     return des_tipica , media
 
 #Ejercicio_4
-def misma_matriz_media_des_tipica():
+def misma_matriz_media_des_tipica(matriz):
     np.random.seed(36)
-    matriz_2 = np.random.normal(des_tipica_y_media, (6,6))
+    matriz_2 = np.random.normal(des_tipica_y_media(matriz), (6,6))
     print(matriz_2)
     return matriz_2
 
-def matriz_ints():
-    matriz_3 = misma_matriz_media_des_tipica.round()
-    print(matriz_3)
+def matriz_ints(matriz):
+    matriz_3 = misma_matriz_media_des_tipica(matriz).round()
+    return matriz_3
 
 

@@ -1,11 +1,11 @@
 
-m=[18, 50, 210, 80, 145, 333, 70, 30]
+
+
+
+
+
 
 lista_aux = []
-
-
-
-
 def seleccionar(diccionario):
     for element in diccionario:
         if(element%10 ==0 and element<200):
@@ -13,5 +13,5 @@ def seleccionar(diccionario):
         elif(element>300):
             break
     return lista_aux
-print(seleccionar(m))
+# print(seleccionar(m))
 

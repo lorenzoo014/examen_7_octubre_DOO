@@ -11,20 +11,17 @@ def matriz_3_4():
         numero_aleatorio = random.randint(0,100)
         if numero_aleatorio%9 ==0:
             lista.append(numero_aleatorio)
-            lista
         elif len(lista)==12:
             array = np.array(lista)
-            print(array)
-            print(type(array))
             array = array.reshape(3,4)
             print(array)
             return array
 
 #3.2.2
-print(matriz_3_4()[0][0])
-print(matriz_3_4()[0])
-print(matriz_3_4().size)
-print(list(matriz_3_4().shape)[0])
+# print(matriz_3_4()[0][0])
+# print(matriz_3_4()[0])
+# print(matriz_3_4().size)
+# print(list(matriz_3_4().shape)[0])
 
 def filtrado(array):
     for i in range(list(array.shape)[0]):
@@ -33,6 +30,7 @@ def filtrado(array):
                 pass
             else:
                 array[i][j]=-1
+    print(array)
     return array
 
-print(filtrado(matriz_3_4()))
+# print(filtrado(matriz_3_4()))
