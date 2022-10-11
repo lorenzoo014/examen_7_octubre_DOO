@@ -7,7 +7,6 @@ sys.path.insert(0,"C:/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/exame
 from Ejercicio2 import main2
 from Ejercicio1 import main
 from Ejercicio3 import main3
-# from Ejercicio3 import ApartadoA, ApartadoB,main3
 
 def iniciar():
     while True:
