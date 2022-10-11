@@ -9,7 +9,8 @@ def primer_apartado():
     print(seleccionar(m))
 def segundo_apartado():
     c=["PEP 8", "PEP 248", "PEP 257"]
-    print("2.2.1 Escribe una función que devuelva el número total de carácteres en un listado de cadenas de texto"+
+    print("SEGUNDO APARTADO \n")
+    print("1. Escribe una función que devuelva el número total de carácteres en un listado de cadenas de texto"+
     '\n     y aplícala sobre el ejemplo:'
     "\n     Entrada a la función: [PEP 8, PEP 248, PEP 257]   "        
     "\n     La salida esperada: 19")

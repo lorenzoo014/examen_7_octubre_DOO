@@ -26,8 +26,8 @@ def misma_matriz_media_des_tipica(matriz):
     print(matriz_2)
     return matriz_2
 
-def matriz_ints():
-    matriz_3 = misma_matriz_media_des_tipica.round()
+def matriz_ints(matriz):
+    matriz_3 = misma_matriz_media_des_tipica(matriz).round()
     return matriz_3
 
 

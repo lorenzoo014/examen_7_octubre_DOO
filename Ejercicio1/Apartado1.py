@@ -1,5 +1,5 @@
 import copy
-class Apartado_1():
+class Apartado1():
 
 #-----------Ejercicio_1.1-----------#
     @staticmethod
